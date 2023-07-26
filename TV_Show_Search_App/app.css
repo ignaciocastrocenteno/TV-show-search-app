@@ -1,0 +1,33 @@
+body {
+  background-color: aqua;
+}
+
+#showsContainer {
+  display: none;
+  flex-flow: row wrap;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: darkblue;
+  justify-content: space-evenly;
+}
+
+.show-photo {
+  width: 210px;
+  height: 295px;
+  background-color: grey;
+  border: 3px solid #fff;
+  display: block;
+  margin: 1rem 5rem 3rem;
+}
+
+.show-photo-availability {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.button {
+  display: block;
+  margin-top: 2rem;
+}

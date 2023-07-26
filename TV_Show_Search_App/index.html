@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1>TV Shows Search</h1>
+    <form action="" id="searchForm">
+      <!--  Here we add a name attribute to be easily found using the forms' elements property -->
+      <input type="text" name="searchBar" id="" placeholder="TV Show Title" />
+      <button type="submit">Search</button>
+      <button class="button" id="cleaningButton">Clean Shows Chart</button>
+    </form>
+    <div id="showsContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
